@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Temporizador</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	<hr>
+	<div class="container">
+		<div class="card">
+			<div class="card-header">
+				<h2>Temporizador</h2>
+			</div>
+			<div class="card-body">
+				<div>
+					<h1 id="tiempoRestante">00:00.0</h1>
+				</div>
+				<div id="contenedorInputs">
+					<div class="form-group">
+						<label class="label">Minutos</label>
+						<input class="form-control" id="minutos" type="number" placeholder="Minutos">
+					</div>
+					<div class="form-group">
+						<label class="label">Segundos</label>
+						<input class="form-control" id="segundos" type="number" placeholder="Segundos">
+					</div>
+				</div>
+			</div>
+			<div class="card-footer">
+				<button id="btnIniciar" class="btn btn-success">Iniciar</button>
+				<button id="btnPausar" class="btn btn-primary">Pausar</button>
+				<button id="btnDetener" class="btn btn-danger">Detener</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<p class="text-center">by Smith</p>
+	<script src="script.js"></script>
+</body>
+</html>
